@@ -1,0 +1,34 @@
+{
+  "name": "react_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "prestart": "npm run build",
+    "build": "webpack --colors --config ./webpack.config.dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^7.0.22",
+    "@types/react": "^15.0.24",
+    "@types/react-dom": "^15.5.0",
+    "devtron": "^1.4.0",
+    "electron-load-devtool": "^0.5.1",
+    "ts-loader": "2.0.3",
+    "tslint": "^5.3.2",
+    "tslint-react": "3.0.0",
+    "typescript": "2.3.2",
+    "webpack": "2.5.1"
+  },
+  "dependencies": {
+    "@types/react-bootstrap": "0.0.49",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.5.4",
+    "@types/electron": "^1.4.24",
+    "electron-packager": "^8.1.0",
+    "electron-prebuilt": "^1.4.4"
+  }
+}

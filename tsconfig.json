@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "jsx": "react",
+    "outDir": "./dist/",
+    // 出力するファイル名を指定
+    "lib": [
+            "dom",
+            "es5",
+            "es6",
+            "scripthost",
+            "es2015.promise"
+    ]
+    }
+}
